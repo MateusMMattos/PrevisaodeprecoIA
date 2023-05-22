@@ -15,7 +15,7 @@ plt.show()
 y = tabela['Preco']
 x = tabela.drop('Preco', axis=1)
 
-x_treino, x_teste, y_treino, y_teste = train_test_split(x, y, test_size=0.3, random_state=1)
+x_treino, x_teste, y_treino, y_teste = train_test_split(x, y, test_size=0.4, random_state=1)
 
 #cria as inteligencias artificiais
 
